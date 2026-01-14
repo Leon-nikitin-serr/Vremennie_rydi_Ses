@@ -23,27 +23,30 @@ Random Forest	Ансамблевое обучение	С лаговыми при
 ARIMA	Статистическая	Классический анализ временных рядов
 LSTM	Глубокое обучение	Нейронная сеть для прогнозирования последовательностей
 
-TGbot_github/
+<pre>
+TGbot/
 ├── bot/
-│   └── botstocks.py
-├── models/
-│   ├── base_model.py
-│   ├── random_forest.py
-│   ├── arima_model.py
-│   └── lstm_model.py
-├── services/
-│   ├── data_service.py
-│   ├── prediction_service.py
-│   └── visualization_service.py
-├── utils/
-│   ├── logger.py
-│   └── trading_signals.py
-├── config.py
-├── main.py
-├── requirements.txt
-├── README.md
-└── .gitignore
+│   └── botstocks.py             # Обработчики Telegram-бота
+├── models/                      # Модели машинного обучения
+│   ├── base_model.py           # Базовый класс моделей
+│   ├── random_forest.py        # Random Forest модель
+│   ├── arima_model.py          # ARIMA модель
+│   └── lstm_model.py           # LSTM нейронная сеть
+├── services/                    # Сервисы приложения
+│   ├── data_service.py         # Сервис работы с данными
+│   ├── prediction_service.py   # Сервис прогнозирования
+│   └── visualization_service.py # Сервис визуализации
+├── utils/                       # Вспомогательные утилиты
+│   ├── logger.py               # Настройка логирования
+│   └── trading_signals.py      # Определение торговых сигналов
+├── config.py                    # Конфигурация приложения
+├── main.py                      # Главный файл запуска
+├── requirements.txt             # Зависимости Python
+├── README.md                    # Документация
+└── .gitignore                   # Исключаемые файлы Git
 
-Логи:
-├── logs.txt                    # Логи приложения
+Логи (автогенерация):
+├── logs.txt                    # Детальные логи приложения
 └── bot.log                     # Логи пользовательских запросов
+</pre>
+
