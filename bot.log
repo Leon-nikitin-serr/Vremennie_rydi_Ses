@@ -1,0 +1,406 @@
+2026-01-14 17:24:36,230 - __main__ - INFO - ============================================================
+2026-01-14 17:24:36,230 - __main__ - INFO - 🚀 Запуск Telegram-бота для прогнозирования акций
+2026-01-14 17:24:36,230 - __main__ - INFO - ============================================================
+2026-01-14 17:24:36,748 - __main__ - INFO - ✅ Бот успешно запущен
+2026-01-14 17:24:36,749 - __main__ - INFO - 📈 Горизонт прогноза: 30 дней
+2026-01-14 17:24:36,749 - __main__ - INFO - 📊 Исторические данные: 730 дней
+2026-01-14 17:24:36,749 - __main__ - INFO - ------------------------------------------------------------
+2026-01-14 17:24:37,413 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8522040364:AAF-axS2KIGIFNTOGtt-mxwfDRG2GBV9nWA/getMe "HTTP/1.1 200 OK"
+2026-01-14 17:24:37,511 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8522040364:AAF-axS2KIGIFNTOGtt-mxwfDRG2GBV9nWA/deleteWebhook "HTTP/1.1 200 OK"
+2026-01-14 17:24:37,512 - telegram.ext.Application - INFO - Application started
+2026-01-14 17:24:47,748 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8522040364:AAF-axS2KIGIFNTOGtt-mxwfDRG2GBV9nWA/getUpdates "HTTP/1.1 200 OK"
+2026-01-14 17:24:57,837 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8522040364:AAF-axS2KIGIFNTOGtt-mxwfDRG2GBV9nWA/getUpdates "HTTP/1.1 200 OK"
+2026-01-14 17:25:07,917 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8522040364:AAF-axS2KIGIFNTOGtt-mxwfDRG2GBV9nWA/getUpdates "HTTP/1.1 200 OK"
+2026-01-14 17:25:17,996 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8522040364:AAF-axS2KIGIFNTOGtt-mxwfDRG2GBV9nWA/getUpdates "HTTP/1.1 200 OK"
+2026-01-14 17:25:28,075 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8522040364:AAF-axS2KIGIFNTOGtt-mxwfDRG2GBV9nWA/getUpdates "HTTP/1.1 200 OK"
+2026-01-14 17:25:34,016 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8522040364:AAF-axS2KIGIFNTOGtt-mxwfDRG2GBV9nWA/getUpdates "HTTP/1.1 200 OK"
+2026-01-14 17:25:34,372 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8522040364:AAF-axS2KIGIFNTOGtt-mxwfDRG2GBV9nWA/sendMessage "HTTP/1.1 200 OK"
+2026-01-14 17:25:44,097 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8522040364:AAF-axS2KIGIFNTOGtt-mxwfDRG2GBV9nWA/getUpdates "HTTP/1.1 200 OK"
+2026-01-14 17:25:54,182 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8522040364:AAF-axS2KIGIFNTOGtt-mxwfDRG2GBV9nWA/getUpdates "HTTP/1.1 200 OK"
+2026-01-14 17:25:54,991 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8522040364:AAF-axS2KIGIFNTOGtt-mxwfDRG2GBV9nWA/getUpdates "HTTP/1.1 200 OK"
+2026-01-14 17:25:56,910 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8522040364:AAF-axS2KIGIFNTOGtt-mxwfDRG2GBV9nWA/sendMessage "HTTP/1.1 200 OK"
+2026-01-14 17:26:03,975 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8522040364:AAF-axS2KIGIFNTOGtt-mxwfDRG2GBV9nWA/getUpdates "HTTP/1.1 200 OK"
+2026-01-14 17:26:03,975 - bot.botstocks - INFO - Начат анализ | user_id=6165450711 | ticker=TSLA | amount=10000.00
+2026-01-14 17:26:04,286 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8522040364:AAF-axS2KIGIFNTOGtt-mxwfDRG2GBV9nWA/sendMessage "HTTP/1.1 200 OK"
+2026-01-14 17:26:09,475 - services.data_service - INFO - Loaded 501 records for TSLA
+2026-01-14 17:26:09,476 - services.prediction_service - INFO - Training model Random Forest...
+2026-01-14 17:26:09,627 - services.prediction_service - INFO - Random Forest: RMSE = 24.13
+2026-01-14 17:26:09,627 - services.prediction_service - INFO - Training model ARIMA...
+2026-01-14 17:26:09,904 - services.prediction_service - INFO - ARIMA: RMSE = 104.57
+2026-01-14 17:26:09,904 - services.prediction_service - INFO - Training model LSTM...
+2026-01-14 17:26:15,482 - services.prediction_service - INFO - LSTM: RMSE = 27.71
+2026-01-14 17:26:15,482 - services.prediction_service - INFO - Best model: Random Forest (RMSE=24.13)
+2026-01-14 17:26:16,382 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8522040364:AAF-axS2KIGIFNTOGtt-mxwfDRG2GBV9nWA/getUpdates "HTTP/1.1 200 OK"
+2026-01-14 17:26:16,974 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8522040364:AAF-axS2KIGIFNTOGtt-mxwfDRG2GBV9nWA/sendPhoto "HTTP/1.1 200 OK"
+2026-01-14 17:26:17,091 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8522040364:AAF-axS2KIGIFNTOGtt-mxwfDRG2GBV9nWA/sendMessage "HTTP/1.1 200 OK"
+2026-01-14 17:26:17,092 - bot.botstocks - INFO - Анализ завершён | user_id=6165450711 | ticker=TSLA | profit=0.00
+2026-01-14 17:26:26,462 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8522040364:AAF-axS2KIGIFNTOGtt-mxwfDRG2GBV9nWA/getUpdates "HTTP/1.1 200 OK"
+2026-01-14 17:26:36,541 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8522040364:AAF-axS2KIGIFNTOGtt-mxwfDRG2GBV9nWA/getUpdates "HTTP/1.1 200 OK"
+2026-01-14 17:26:46,620 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8522040364:AAF-axS2KIGIFNTOGtt-mxwfDRG2GBV9nWA/getUpdates "HTTP/1.1 200 OK"
+2026-01-14 17:26:56,699 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8522040364:AAF-axS2KIGIFNTOGtt-mxwfDRG2GBV9nWA/getUpdates "HTTP/1.1 200 OK"
+2026-01-14 17:27:06,778 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8522040364:AAF-axS2KIGIFNTOGtt-mxwfDRG2GBV9nWA/getUpdates "HTTP/1.1 200 OK"
+2026-01-14 17:27:16,857 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8522040364:AAF-axS2KIGIFNTOGtt-mxwfDRG2GBV9nWA/getUpdates "HTTP/1.1 200 OK"
+2026-01-14 17:27:26,937 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8522040364:AAF-axS2KIGIFNTOGtt-mxwfDRG2GBV9nWA/getUpdates "HTTP/1.1 200 OK"
+2026-01-14 17:27:37,016 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8522040364:AAF-axS2KIGIFNTOGtt-mxwfDRG2GBV9nWA/getUpdates "HTTP/1.1 200 OK"
+2026-01-14 17:27:47,101 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8522040364:AAF-axS2KIGIFNTOGtt-mxwfDRG2GBV9nWA/getUpdates "HTTP/1.1 200 OK"
+2026-01-14 17:27:57,180 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8522040364:AAF-axS2KIGIFNTOGtt-mxwfDRG2GBV9nWA/getUpdates "HTTP/1.1 200 OK"
+2026-01-14 17:28:01,388 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8522040364:AAF-axS2KIGIFNTOGtt-mxwfDRG2GBV9nWA/getUpdates "HTTP/1.1 200 OK"
+2026-01-14 17:28:01,389 - telegram.ext.Application - INFO - Application is stopping. This might take a moment.
+2026-01-14 17:28:01,389 - telegram.ext.Application - INFO - Application.stop() complete
+2026-01-14 17:36:22,248 - __main__ - INFO - ============================================================
+2026-01-14 17:36:22,248 - __main__ - INFO - 🚀 Запуск Telegram-бота для прогнозирования акций
+2026-01-14 17:36:22,248 - __main__ - INFO - ============================================================
+2026-01-14 17:36:22,750 - __main__ - INFO - ✅ Бот успешно запущен
+2026-01-14 17:36:22,750 - __main__ - INFO - 📈 Горизонт прогноза: 30 дней
+2026-01-14 17:36:22,750 - __main__ - INFO - 📊 Исторические данные: 730 дней
+2026-01-14 17:36:22,750 - __main__ - INFO - ------------------------------------------------------------
+2026-01-14 17:36:23,018 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8522040364:AAF-axS2KIGIFNTOGtt-mxwfDRG2GBV9nWA/getMe "HTTP/1.1 200 OK"
+2026-01-14 17:36:23,103 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8522040364:AAF-axS2KIGIFNTOGtt-mxwfDRG2GBV9nWA/deleteWebhook "HTTP/1.1 200 OK"
+2026-01-14 17:36:23,105 - telegram.ext.Application - INFO - Application started
+2026-01-14 17:36:33,364 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8522040364:AAF-axS2KIGIFNTOGtt-mxwfDRG2GBV9nWA/getUpdates "HTTP/1.1 200 OK"
+2026-01-14 17:36:34,679 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8522040364:AAF-axS2KIGIFNTOGtt-mxwfDRG2GBV9nWA/getUpdates "HTTP/1.1 200 OK"
+2026-01-14 17:36:34,945 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8522040364:AAF-axS2KIGIFNTOGtt-mxwfDRG2GBV9nWA/sendMessage "HTTP/1.1 200 OK"
+2026-01-14 17:36:44,764 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8522040364:AAF-axS2KIGIFNTOGtt-mxwfDRG2GBV9nWA/getUpdates "HTTP/1.1 200 OK"
+2026-01-14 17:36:47,887 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8522040364:AAF-axS2KIGIFNTOGtt-mxwfDRG2GBV9nWA/getUpdates "HTTP/1.1 200 OK"
+2026-01-14 17:36:48,202 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8522040364:AAF-axS2KIGIFNTOGtt-mxwfDRG2GBV9nWA/sendMessage "HTTP/1.1 200 OK"
+2026-01-14 17:36:55,139 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8522040364:AAF-axS2KIGIFNTOGtt-mxwfDRG2GBV9nWA/getUpdates "HTTP/1.1 200 OK"
+2026-01-14 17:36:55,139 - telegram.ext.Application - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "H:\Leon\TGbot\venv\Lib\site-packages\telegram\ext\_application.py", line 1315, in process_update
+    await coroutine
+  File "H:\Leon\TGbot\venv\Lib\site-packages\telegram\ext\_handlers\conversationhandler.py", line 843, in handle_update
+    new_state: object = await handler.handle_update(
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        update, application, handler_check_result, context
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "H:\Leon\TGbot\venv\Lib\site-packages\telegram\ext\_handlers\basehandler.py", line 159, in handle_update
+    return await self.callback(update, context)
+                 ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+TypeError: Botstocks.amount_received() missing 1 required positional argument: 'context'
+2026-01-14 17:37:05,228 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8522040364:AAF-axS2KIGIFNTOGtt-mxwfDRG2GBV9nWA/getUpdates "HTTP/1.1 200 OK"
+2026-01-14 17:37:11,865 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8522040364:AAF-axS2KIGIFNTOGtt-mxwfDRG2GBV9nWA/getUpdates "HTTP/1.1 200 OK"
+2026-01-14 17:37:11,866 - telegram.ext.Application - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "H:\Leon\TGbot\venv\Lib\site-packages\telegram\ext\_application.py", line 1315, in process_update
+    await coroutine
+  File "H:\Leon\TGbot\venv\Lib\site-packages\telegram\ext\_handlers\conversationhandler.py", line 843, in handle_update
+    new_state: object = await handler.handle_update(
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        update, application, handler_check_result, context
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "H:\Leon\TGbot\venv\Lib\site-packages\telegram\ext\_handlers\basehandler.py", line 159, in handle_update
+    return await self.callback(update, context)
+                 ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+TypeError: Botstocks.amount_received() missing 1 required positional argument: 'context'
+2026-01-14 17:37:20,212 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8522040364:AAF-axS2KIGIFNTOGtt-mxwfDRG2GBV9nWA/getUpdates "HTTP/1.1 200 OK"
+2026-01-14 17:37:30,306 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8522040364:AAF-axS2KIGIFNTOGtt-mxwfDRG2GBV9nWA/getUpdates "HTTP/1.1 200 OK"
+2026-01-14 17:37:40,406 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8522040364:AAF-axS2KIGIFNTOGtt-mxwfDRG2GBV9nWA/getUpdates "HTTP/1.1 200 OK"
+2026-01-14 17:37:50,491 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8522040364:AAF-axS2KIGIFNTOGtt-mxwfDRG2GBV9nWA/getUpdates "HTTP/1.1 200 OK"
+2026-01-14 17:38:00,581 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8522040364:AAF-axS2KIGIFNTOGtt-mxwfDRG2GBV9nWA/getUpdates "HTTP/1.1 200 OK"
+2026-01-14 17:38:10,666 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8522040364:AAF-axS2KIGIFNTOGtt-mxwfDRG2GBV9nWA/getUpdates "HTTP/1.1 200 OK"
+2026-01-14 17:38:20,751 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8522040364:AAF-axS2KIGIFNTOGtt-mxwfDRG2GBV9nWA/getUpdates "HTTP/1.1 200 OK"
+2026-01-14 17:38:25,844 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8522040364:AAF-axS2KIGIFNTOGtt-mxwfDRG2GBV9nWA/getUpdates "HTTP/1.1 200 OK"
+2026-01-14 17:38:25,845 - telegram.ext.Application - INFO - Application is stopping. This might take a moment.
+2026-01-14 17:38:25,845 - telegram.ext.Application - INFO - Application.stop() complete
+2026-01-14 17:40:16,456 - __main__ - INFO - ============================================================
+2026-01-14 17:40:16,456 - __main__ - INFO - 🚀 Запуск Telegram-бота для прогнозирования акций
+2026-01-14 17:40:16,456 - __main__ - INFO - ============================================================
+2026-01-14 17:40:16,965 - __main__ - INFO - ✅ Бот успешно запущен
+2026-01-14 17:40:16,965 - __main__ - INFO - 📈 Горизонт прогноза: 30 дней
+2026-01-14 17:40:16,966 - __main__ - INFO - 📊 Исторические данные: 730 дней
+2026-01-14 17:40:16,966 - __main__ - INFO - ------------------------------------------------------------
+2026-01-14 17:40:17,241 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8522040364:AAF-axS2KIGIFNTOGtt-mxwfDRG2GBV9nWA/getMe "HTTP/1.1 200 OK"
+2026-01-14 17:40:17,325 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8522040364:AAF-axS2KIGIFNTOGtt-mxwfDRG2GBV9nWA/deleteWebhook "HTTP/1.1 200 OK"
+2026-01-14 17:40:17,327 - telegram.ext.Application - INFO - Application started
+2026-01-14 17:40:21,574 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8522040364:AAF-axS2KIGIFNTOGtt-mxwfDRG2GBV9nWA/getUpdates "HTTP/1.1 200 OK"
+2026-01-14 17:40:21,710 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8522040364:AAF-axS2KIGIFNTOGtt-mxwfDRG2GBV9nWA/sendMessage "HTTP/1.1 200 OK"
+2026-01-14 17:40:31,659 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8522040364:AAF-axS2KIGIFNTOGtt-mxwfDRG2GBV9nWA/getUpdates "HTTP/1.1 200 OK"
+2026-01-14 17:40:33,329 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8522040364:AAF-axS2KIGIFNTOGtt-mxwfDRG2GBV9nWA/getUpdates "HTTP/1.1 200 OK"
+2026-01-14 17:40:33,619 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8522040364:AAF-axS2KIGIFNTOGtt-mxwfDRG2GBV9nWA/sendMessage "HTTP/1.1 200 OK"
+2026-01-14 17:40:39,519 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8522040364:AAF-axS2KIGIFNTOGtt-mxwfDRG2GBV9nWA/getUpdates "HTTP/1.1 200 OK"
+2026-01-14 17:40:39,520 - bot.botstocks - INFO - Начат анализ | user_id=6165450711 | ticker=MSFT | amount=10000.00
+2026-01-14 17:40:39,801 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8522040364:AAF-axS2KIGIFNTOGtt-mxwfDRG2GBV9nWA/sendMessage "HTTP/1.1 200 OK"
+2026-01-14 17:40:41,245 - services.data_service - INFO - Loaded 502 records for MSFT
+2026-01-14 17:40:41,245 - services.prediction_service - INFO - Training model Random Forest...
+2026-01-14 17:40:41,374 - services.prediction_service - INFO - Random Forest: RMSE = 13.85
+2026-01-14 17:40:41,374 - services.prediction_service - INFO - Training model ARIMA...
+2026-01-14 17:40:41,557 - services.prediction_service - INFO - ARIMA: RMSE = 17.47
+2026-01-14 17:40:41,558 - services.prediction_service - INFO - Training model LSTM...
+2026-01-14 17:40:46,328 - services.prediction_service - INFO - LSTM: RMSE = 11.99
+2026-01-14 17:40:46,328 - services.prediction_service - INFO - Best model: LSTM (RMSE=11.99)
+2026-01-14 17:40:47,065 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8522040364:AAF-axS2KIGIFNTOGtt-mxwfDRG2GBV9nWA/sendPhoto "HTTP/1.1 200 OK"
+2026-01-14 17:40:47,190 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8522040364:AAF-axS2KIGIFNTOGtt-mxwfDRG2GBV9nWA/sendMessage "HTTP/1.1 200 OK"
+2026-01-14 17:40:47,191 - bot.botstocks - INFO - Анализ завершён | user_id=6165450711 | ticker=MSFT | profit=0.00
+2026-01-14 17:40:49,604 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8522040364:AAF-axS2KIGIFNTOGtt-mxwfDRG2GBV9nWA/getUpdates "HTTP/1.1 200 OK"
+2026-01-14 17:40:59,688 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8522040364:AAF-axS2KIGIFNTOGtt-mxwfDRG2GBV9nWA/getUpdates "HTTP/1.1 200 OK"
+2026-01-14 17:41:09,771 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8522040364:AAF-axS2KIGIFNTOGtt-mxwfDRG2GBV9nWA/getUpdates "HTTP/1.1 200 OK"
+2026-01-14 17:41:19,854 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8522040364:AAF-axS2KIGIFNTOGtt-mxwfDRG2GBV9nWA/getUpdates "HTTP/1.1 200 OK"
+2026-01-14 17:41:29,938 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8522040364:AAF-axS2KIGIFNTOGtt-mxwfDRG2GBV9nWA/getUpdates "HTTP/1.1 200 OK"
+2026-01-14 17:41:40,022 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8522040364:AAF-axS2KIGIFNTOGtt-mxwfDRG2GBV9nWA/getUpdates "HTTP/1.1 200 OK"
+2026-01-14 17:41:50,105 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8522040364:AAF-axS2KIGIFNTOGtt-mxwfDRG2GBV9nWA/getUpdates "HTTP/1.1 200 OK"
+2026-01-14 17:42:00,188 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8522040364:AAF-axS2KIGIFNTOGtt-mxwfDRG2GBV9nWA/getUpdates "HTTP/1.1 200 OK"
+2026-01-14 17:42:10,272 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8522040364:AAF-axS2KIGIFNTOGtt-mxwfDRG2GBV9nWA/getUpdates "HTTP/1.1 200 OK"
+2026-01-14 17:42:20,356 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8522040364:AAF-axS2KIGIFNTOGtt-mxwfDRG2GBV9nWA/getUpdates "HTTP/1.1 200 OK"
+2026-01-14 17:42:30,440 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8522040364:AAF-axS2KIGIFNTOGtt-mxwfDRG2GBV9nWA/getUpdates "HTTP/1.1 200 OK"
+2026-01-14 17:42:40,523 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8522040364:AAF-axS2KIGIFNTOGtt-mxwfDRG2GBV9nWA/getUpdates "HTTP/1.1 200 OK"
+2026-01-14 17:42:50,608 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8522040364:AAF-axS2KIGIFNTOGtt-mxwfDRG2GBV9nWA/getUpdates "HTTP/1.1 200 OK"
+2026-01-14 17:43:00,691 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8522040364:AAF-axS2KIGIFNTOGtt-mxwfDRG2GBV9nWA/getUpdates "HTTP/1.1 200 OK"
+2026-01-14 17:43:10,775 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8522040364:AAF-axS2KIGIFNTOGtt-mxwfDRG2GBV9nWA/getUpdates "HTTP/1.1 200 OK"
+2026-01-14 17:43:20,858 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8522040364:AAF-axS2KIGIFNTOGtt-mxwfDRG2GBV9nWA/getUpdates "HTTP/1.1 200 OK"
+2026-01-14 17:43:30,943 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8522040364:AAF-axS2KIGIFNTOGtt-mxwfDRG2GBV9nWA/getUpdates "HTTP/1.1 200 OK"
+2026-01-14 17:43:41,027 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8522040364:AAF-axS2KIGIFNTOGtt-mxwfDRG2GBV9nWA/getUpdates "HTTP/1.1 200 OK"
+2026-01-14 17:43:51,110 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8522040364:AAF-axS2KIGIFNTOGtt-mxwfDRG2GBV9nWA/getUpdates "HTTP/1.1 200 OK"
+2026-01-14 17:44:01,194 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8522040364:AAF-axS2KIGIFNTOGtt-mxwfDRG2GBV9nWA/getUpdates "HTTP/1.1 200 OK"
+2026-01-14 17:44:11,277 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8522040364:AAF-axS2KIGIFNTOGtt-mxwfDRG2GBV9nWA/getUpdates "HTTP/1.1 200 OK"
+2026-01-14 17:44:21,361 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8522040364:AAF-axS2KIGIFNTOGtt-mxwfDRG2GBV9nWA/getUpdates "HTTP/1.1 200 OK"
+2026-01-14 17:44:31,445 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8522040364:AAF-axS2KIGIFNTOGtt-mxwfDRG2GBV9nWA/getUpdates "HTTP/1.1 200 OK"
+2026-01-14 17:44:41,528 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8522040364:AAF-axS2KIGIFNTOGtt-mxwfDRG2GBV9nWA/getUpdates "HTTP/1.1 200 OK"
+2026-01-14 17:44:51,612 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8522040364:AAF-axS2KIGIFNTOGtt-mxwfDRG2GBV9nWA/getUpdates "HTTP/1.1 200 OK"
+2026-01-14 17:45:01,695 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8522040364:AAF-axS2KIGIFNTOGtt-mxwfDRG2GBV9nWA/getUpdates "HTTP/1.1 200 OK"
+2026-01-14 17:45:11,782 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8522040364:AAF-axS2KIGIFNTOGtt-mxwfDRG2GBV9nWA/getUpdates "HTTP/1.1 200 OK"
+2026-01-14 17:45:14,622 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8522040364:AAF-axS2KIGIFNTOGtt-mxwfDRG2GBV9nWA/getUpdates "HTTP/1.1 200 OK"
+2026-01-14 17:45:15,130 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8522040364:AAF-axS2KIGIFNTOGtt-mxwfDRG2GBV9nWA/sendMessage "HTTP/1.1 200 OK"
+2026-01-14 17:45:22,132 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8522040364:AAF-axS2KIGIFNTOGtt-mxwfDRG2GBV9nWA/getUpdates "HTTP/1.1 200 OK"
+2026-01-14 17:45:22,133 - telegram.ext.Application - INFO - Application is stopping. This might take a moment.
+2026-01-14 17:45:22,133 - telegram.ext.Application - INFO - Application.stop() complete
+2026-01-14 17:45:48,500 - __main__ - INFO - ============================================================
+2026-01-14 17:45:48,500 - __main__ - INFO - 🚀 Запуск Telegram-бота для прогнозирования акций
+2026-01-14 17:45:48,500 - __main__ - INFO - ============================================================
+2026-01-14 17:45:48,992 - __main__ - INFO - ✅ Бот успешно запущен
+2026-01-14 17:45:48,992 - __main__ - INFO - 📈 Горизонт прогноза: 30 дней
+2026-01-14 17:45:48,993 - __main__ - INFO - 📊 Исторические данные: 730 дней
+2026-01-14 17:45:48,993 - __main__ - INFO - ------------------------------------------------------------
+2026-01-14 17:45:49,276 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8522040364:AAF-axS2KIGIFNTOGtt-mxwfDRG2GBV9nWA/getMe "HTTP/1.1 200 OK"
+2026-01-14 17:45:49,360 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8522040364:AAF-axS2KIGIFNTOGtt-mxwfDRG2GBV9nWA/deleteWebhook "HTTP/1.1 200 OK"
+2026-01-14 17:45:49,361 - telegram.ext.Application - INFO - Application started
+2026-01-14 17:45:53,870 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8522040364:AAF-axS2KIGIFNTOGtt-mxwfDRG2GBV9nWA/getUpdates "HTTP/1.1 200 OK"
+2026-01-14 17:45:54,030 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8522040364:AAF-axS2KIGIFNTOGtt-mxwfDRG2GBV9nWA/sendMessage "HTTP/1.1 200 OK"
+2026-01-14 17:46:03,975 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8522040364:AAF-axS2KIGIFNTOGtt-mxwfDRG2GBV9nWA/getUpdates "HTTP/1.1 200 OK"
+2026-01-14 17:46:08,913 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8522040364:AAF-axS2KIGIFNTOGtt-mxwfDRG2GBV9nWA/getUpdates "HTTP/1.1 200 OK"
+2026-01-14 17:46:09,181 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8522040364:AAF-axS2KIGIFNTOGtt-mxwfDRG2GBV9nWA/sendMessage "HTTP/1.1 200 OK"
+2026-01-14 17:46:17,002 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8522040364:AAF-axS2KIGIFNTOGtt-mxwfDRG2GBV9nWA/getUpdates "HTTP/1.1 200 OK"
+2026-01-14 17:46:17,003 - bot.botstocks - INFO - Начат анализ | user_id=6165450711 | ticker=MSFT | amount=777.00
+2026-01-14 17:46:17,290 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8522040364:AAF-axS2KIGIFNTOGtt-mxwfDRG2GBV9nWA/sendMessage "HTTP/1.1 200 OK"
+2026-01-14 17:46:18,781 - services.data_service - INFO - Loaded 502 records for MSFT
+2026-01-14 17:46:18,781 - services.prediction_service - INFO - Training model Random Forest...
+2026-01-14 17:46:18,915 - services.prediction_service - INFO - Random Forest: RMSE = 13.89
+2026-01-14 17:46:18,915 - services.prediction_service - INFO - Training model ARIMA...
+2026-01-14 17:46:19,128 - services.prediction_service - INFO - ARIMA: RMSE = 17.49
+2026-01-14 17:46:19,128 - services.prediction_service - INFO - Training model LSTM...
+2026-01-14 17:46:23,990 - services.prediction_service - INFO - LSTM: RMSE = 21.09
+2026-01-14 17:46:23,991 - services.prediction_service - INFO - Best model: Random Forest (RMSE=13.89)
+2026-01-14 17:46:25,249 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8522040364:AAF-axS2KIGIFNTOGtt-mxwfDRG2GBV9nWA/sendPhoto "HTTP/1.1 200 OK"
+2026-01-14 17:46:25,360 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8522040364:AAF-axS2KIGIFNTOGtt-mxwfDRG2GBV9nWA/sendMessage "HTTP/1.1 200 OK"
+2026-01-14 17:46:25,361 - bot.botstocks - INFO - Анализ завершён | user_id=6165450711 | ticker=MSFT | profit=0.00
+2026-01-14 17:46:27,083 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8522040364:AAF-axS2KIGIFNTOGtt-mxwfDRG2GBV9nWA/getUpdates "HTTP/1.1 200 OK"
+2026-01-14 17:46:37,162 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8522040364:AAF-axS2KIGIFNTOGtt-mxwfDRG2GBV9nWA/getUpdates "HTTP/1.1 200 OK"
+2026-01-14 17:46:47,242 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8522040364:AAF-axS2KIGIFNTOGtt-mxwfDRG2GBV9nWA/getUpdates "HTTP/1.1 200 OK"
+2026-01-14 17:46:52,802 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8522040364:AAF-axS2KIGIFNTOGtt-mxwfDRG2GBV9nWA/getUpdates "HTTP/1.1 200 OK"
+2026-01-14 17:46:53,101 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8522040364:AAF-axS2KIGIFNTOGtt-mxwfDRG2GBV9nWA/sendMessage "HTTP/1.1 200 OK"
+2026-01-14 17:47:02,335 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8522040364:AAF-axS2KIGIFNTOGtt-mxwfDRG2GBV9nWA/getUpdates "HTTP/1.1 200 OK"
+2026-01-14 17:47:02,641 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8522040364:AAF-axS2KIGIFNTOGtt-mxwfDRG2GBV9nWA/sendMessage "HTTP/1.1 200 OK"
+2026-01-14 17:47:08,467 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8522040364:AAF-axS2KIGIFNTOGtt-mxwfDRG2GBV9nWA/getUpdates "HTTP/1.1 200 OK"
+2026-01-14 17:47:08,468 - bot.botstocks - INFO - Начат анализ | user_id=6165450711 | ticker=MSFT | amount=10000.00
+2026-01-14 17:47:08,767 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8522040364:AAF-axS2KIGIFNTOGtt-mxwfDRG2GBV9nWA/sendMessage "HTTP/1.1 200 OK"
+2026-01-14 17:47:09,476 - services.data_service - INFO - Loaded 502 records for MSFT
+2026-01-14 17:47:09,476 - services.prediction_service - INFO - Training model Random Forest...
+2026-01-14 17:47:09,608 - services.prediction_service - INFO - Random Forest: RMSE = 13.89
+2026-01-14 17:47:09,608 - services.prediction_service - INFO - Training model ARIMA...
+2026-01-14 17:47:09,797 - services.prediction_service - INFO - ARIMA: RMSE = 17.50
+2026-01-14 17:47:09,797 - services.prediction_service - INFO - Training model LSTM...
+2026-01-14 17:47:13,539 - services.prediction_service - INFO - LSTM: RMSE = 18.18
+2026-01-14 17:47:13,539 - services.prediction_service - INFO - Best model: Random Forest (RMSE=13.89)
+2026-01-14 17:47:14,776 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8522040364:AAF-axS2KIGIFNTOGtt-mxwfDRG2GBV9nWA/sendPhoto "HTTP/1.1 200 OK"
+2026-01-14 17:47:14,909 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8522040364:AAF-axS2KIGIFNTOGtt-mxwfDRG2GBV9nWA/sendMessage "HTTP/1.1 200 OK"
+2026-01-14 17:47:14,910 - bot.botstocks - INFO - Анализ завершён | user_id=6165450711 | ticker=MSFT | profit=0.00
+2026-01-14 17:47:18,550 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8522040364:AAF-axS2KIGIFNTOGtt-mxwfDRG2GBV9nWA/getUpdates "HTTP/1.1 200 OK"
+2026-01-14 17:47:28,632 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8522040364:AAF-axS2KIGIFNTOGtt-mxwfDRG2GBV9nWA/getUpdates "HTTP/1.1 200 OK"
+2026-01-14 17:47:35,066 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8522040364:AAF-axS2KIGIFNTOGtt-mxwfDRG2GBV9nWA/getUpdates "HTTP/1.1 200 OK"
+2026-01-14 17:47:35,425 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8522040364:AAF-axS2KIGIFNTOGtt-mxwfDRG2GBV9nWA/sendMessage "HTTP/1.1 200 OK"
+2026-01-14 17:47:45,149 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8522040364:AAF-axS2KIGIFNTOGtt-mxwfDRG2GBV9nWA/getUpdates "HTTP/1.1 200 OK"
+2026-01-14 17:47:47,022 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8522040364:AAF-axS2KIGIFNTOGtt-mxwfDRG2GBV9nWA/getUpdates "HTTP/1.1 200 OK"
+2026-01-14 17:47:47,290 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8522040364:AAF-axS2KIGIFNTOGtt-mxwfDRG2GBV9nWA/sendMessage "HTTP/1.1 200 OK"
+2026-01-14 17:47:51,846 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8522040364:AAF-axS2KIGIFNTOGtt-mxwfDRG2GBV9nWA/getUpdates "HTTP/1.1 200 OK"
+2026-01-14 17:47:51,846 - bot.botstocks - INFO - Начат анализ | user_id=6165450711 | ticker=TSLA | amount=10000.00
+2026-01-14 17:47:51,980 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8522040364:AAF-axS2KIGIFNTOGtt-mxwfDRG2GBV9nWA/sendMessage "HTTP/1.1 200 OK"
+2026-01-14 17:47:52,689 - services.data_service - INFO - Loaded 502 records for TSLA
+2026-01-14 17:47:52,690 - services.prediction_service - INFO - Training model Random Forest...
+2026-01-14 17:47:52,817 - services.prediction_service - INFO - Random Forest: RMSE = 23.27
+2026-01-14 17:47:52,817 - services.prediction_service - INFO - Training model ARIMA...
+2026-01-14 17:47:53,085 - services.prediction_service - INFO - ARIMA: RMSE = 109.65
+2026-01-14 17:47:53,086 - services.prediction_service - INFO - Training model LSTM...
+2026-01-14 17:47:56,882 - services.prediction_service - INFO - LSTM: RMSE = 17.34
+2026-01-14 17:47:56,882 - services.prediction_service - INFO - Best model: LSTM (RMSE=17.34)
+2026-01-14 17:47:57,555 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8522040364:AAF-axS2KIGIFNTOGtt-mxwfDRG2GBV9nWA/sendPhoto "HTTP/1.1 200 OK"
+2026-01-14 17:47:57,667 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8522040364:AAF-axS2KIGIFNTOGtt-mxwfDRG2GBV9nWA/sendMessage "HTTP/1.1 200 OK"
+2026-01-14 17:47:57,668 - bot.botstocks - INFO - Анализ завершён | user_id=6165450711 | ticker=TSLA | profit=0.00
+2026-01-14 17:48:01,929 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8522040364:AAF-axS2KIGIFNTOGtt-mxwfDRG2GBV9nWA/getUpdates "HTTP/1.1 200 OK"
+2026-01-14 17:48:12,017 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8522040364:AAF-axS2KIGIFNTOGtt-mxwfDRG2GBV9nWA/getUpdates "HTTP/1.1 200 OK"
+2026-01-14 17:48:22,096 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8522040364:AAF-axS2KIGIFNTOGtt-mxwfDRG2GBV9nWA/getUpdates "HTTP/1.1 200 OK"
+2026-01-14 17:48:32,178 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8522040364:AAF-axS2KIGIFNTOGtt-mxwfDRG2GBV9nWA/getUpdates "HTTP/1.1 200 OK"
+2026-01-14 17:48:42,258 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8522040364:AAF-axS2KIGIFNTOGtt-mxwfDRG2GBV9nWA/getUpdates "HTTP/1.1 200 OK"
+2026-01-14 17:48:52,377 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8522040364:AAF-axS2KIGIFNTOGtt-mxwfDRG2GBV9nWA/getUpdates "HTTP/1.1 200 OK"
+2026-01-14 17:49:02,460 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8522040364:AAF-axS2KIGIFNTOGtt-mxwfDRG2GBV9nWA/getUpdates "HTTP/1.1 200 OK"
+2026-01-14 17:49:12,541 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8522040364:AAF-axS2KIGIFNTOGtt-mxwfDRG2GBV9nWA/getUpdates "HTTP/1.1 200 OK"
+2026-01-14 17:49:22,626 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8522040364:AAF-axS2KIGIFNTOGtt-mxwfDRG2GBV9nWA/getUpdates "HTTP/1.1 200 OK"
+2026-01-14 17:49:32,708 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8522040364:AAF-axS2KIGIFNTOGtt-mxwfDRG2GBV9nWA/getUpdates "HTTP/1.1 200 OK"
+2026-01-14 17:49:42,788 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8522040364:AAF-axS2KIGIFNTOGtt-mxwfDRG2GBV9nWA/getUpdates "HTTP/1.1 200 OK"
+2026-01-14 17:49:52,867 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8522040364:AAF-axS2KIGIFNTOGtt-mxwfDRG2GBV9nWA/getUpdates "HTTP/1.1 200 OK"
+2026-01-14 17:50:02,947 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8522040364:AAF-axS2KIGIFNTOGtt-mxwfDRG2GBV9nWA/getUpdates "HTTP/1.1 200 OK"
+2026-01-14 17:50:13,027 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8522040364:AAF-axS2KIGIFNTOGtt-mxwfDRG2GBV9nWA/getUpdates "HTTP/1.1 200 OK"
+2026-01-14 17:50:23,106 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8522040364:AAF-axS2KIGIFNTOGtt-mxwfDRG2GBV9nWA/getUpdates "HTTP/1.1 200 OK"
+2026-01-14 17:50:33,188 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8522040364:AAF-axS2KIGIFNTOGtt-mxwfDRG2GBV9nWA/getUpdates "HTTP/1.1 200 OK"
+2026-01-14 17:50:43,269 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8522040364:AAF-axS2KIGIFNTOGtt-mxwfDRG2GBV9nWA/getUpdates "HTTP/1.1 200 OK"
+2026-01-14 17:50:53,371 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8522040364:AAF-axS2KIGIFNTOGtt-mxwfDRG2GBV9nWA/getUpdates "HTTP/1.1 200 OK"
+2026-01-14 17:51:03,455 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8522040364:AAF-axS2KIGIFNTOGtt-mxwfDRG2GBV9nWA/getUpdates "HTTP/1.1 200 OK"
+2026-01-14 17:51:13,540 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8522040364:AAF-axS2KIGIFNTOGtt-mxwfDRG2GBV9nWA/getUpdates "HTTP/1.1 200 OK"
+2026-01-14 17:51:23,619 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8522040364:AAF-axS2KIGIFNTOGtt-mxwfDRG2GBV9nWA/getUpdates "HTTP/1.1 200 OK"
+2026-01-14 17:51:33,705 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8522040364:AAF-axS2KIGIFNTOGtt-mxwfDRG2GBV9nWA/getUpdates "HTTP/1.1 200 OK"
+2026-01-14 17:51:43,785 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8522040364:AAF-axS2KIGIFNTOGtt-mxwfDRG2GBV9nWA/getUpdates "HTTP/1.1 200 OK"
+2026-01-14 17:51:53,868 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8522040364:AAF-axS2KIGIFNTOGtt-mxwfDRG2GBV9nWA/getUpdates "HTTP/1.1 200 OK"
+2026-01-14 17:52:03,947 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8522040364:AAF-axS2KIGIFNTOGtt-mxwfDRG2GBV9nWA/getUpdates "HTTP/1.1 200 OK"
+2026-01-14 17:52:14,027 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8522040364:AAF-axS2KIGIFNTOGtt-mxwfDRG2GBV9nWA/getUpdates "HTTP/1.1 200 OK"
+2026-01-14 17:52:24,112 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8522040364:AAF-axS2KIGIFNTOGtt-mxwfDRG2GBV9nWA/getUpdates "HTTP/1.1 200 OK"
+2026-01-14 17:52:34,204 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8522040364:AAF-axS2KIGIFNTOGtt-mxwfDRG2GBV9nWA/getUpdates "HTTP/1.1 200 OK"
+2026-01-14 17:52:44,284 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8522040364:AAF-axS2KIGIFNTOGtt-mxwfDRG2GBV9nWA/getUpdates "HTTP/1.1 200 OK"
+2026-01-14 17:52:54,364 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8522040364:AAF-axS2KIGIFNTOGtt-mxwfDRG2GBV9nWA/getUpdates "HTTP/1.1 200 OK"
+2026-01-14 17:53:04,445 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8522040364:AAF-axS2KIGIFNTOGtt-mxwfDRG2GBV9nWA/getUpdates "HTTP/1.1 200 OK"
+2026-01-14 17:53:14,526 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8522040364:AAF-axS2KIGIFNTOGtt-mxwfDRG2GBV9nWA/getUpdates "HTTP/1.1 200 OK"
+2026-01-14 17:53:24,605 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8522040364:AAF-axS2KIGIFNTOGtt-mxwfDRG2GBV9nWA/getUpdates "HTTP/1.1 200 OK"
+2026-01-14 17:53:34,689 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8522040364:AAF-axS2KIGIFNTOGtt-mxwfDRG2GBV9nWA/getUpdates "HTTP/1.1 200 OK"
+2026-01-14 17:53:44,768 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8522040364:AAF-axS2KIGIFNTOGtt-mxwfDRG2GBV9nWA/getUpdates "HTTP/1.1 200 OK"
+2026-01-14 17:53:54,851 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8522040364:AAF-axS2KIGIFNTOGtt-mxwfDRG2GBV9nWA/getUpdates "HTTP/1.1 200 OK"
+2026-01-14 17:54:04,931 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8522040364:AAF-axS2KIGIFNTOGtt-mxwfDRG2GBV9nWA/getUpdates "HTTP/1.1 200 OK"
+2026-01-14 17:54:15,010 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8522040364:AAF-axS2KIGIFNTOGtt-mxwfDRG2GBV9nWA/getUpdates "HTTP/1.1 200 OK"
+2026-01-14 17:54:25,092 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8522040364:AAF-axS2KIGIFNTOGtt-mxwfDRG2GBV9nWA/getUpdates "HTTP/1.1 200 OK"
+2026-01-14 17:54:34,517 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8522040364:AAF-axS2KIGIFNTOGtt-mxwfDRG2GBV9nWA/getUpdates "HTTP/1.1 200 OK"
+2026-01-14 17:54:34,518 - telegram.ext.Application - INFO - Application is stopping. This might take a moment.
+2026-01-14 17:54:34,518 - telegram.ext.Application - INFO - Application.stop() complete
+2026-01-14 18:05:10,215 - __main__ - INFO - ============================================================
+2026-01-14 18:05:10,215 - __main__ - INFO - 🚀 Запуск Telegram-бота для прогнозирования акций
+2026-01-14 18:05:10,215 - __main__ - INFO - ============================================================
+2026-01-14 18:05:10,730 - __main__ - INFO - ✅ Бот успешно запущен
+2026-01-14 18:05:10,730 - __main__ - INFO - 📈 Горизонт прогноза: 30 дней
+2026-01-14 18:05:10,730 - __main__ - INFO - 📊 Исторические данные: 730 дней
+2026-01-14 18:05:10,730 - __main__ - INFO - ------------------------------------------------------------
+2026-01-14 18:05:11,010 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8522040364:AAF-axS2KIGIFNTOGtt-mxwfDRG2GBV9nWA/getMe "HTTP/1.1 200 OK"
+2026-01-14 18:05:11,093 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8522040364:AAF-axS2KIGIFNTOGtt-mxwfDRG2GBV9nWA/deleteWebhook "HTTP/1.1 200 OK"
+2026-01-14 18:05:11,094 - telegram.ext.Application - INFO - Application started
+2026-01-14 18:05:21,349 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8522040364:AAF-axS2KIGIFNTOGtt-mxwfDRG2GBV9nWA/getUpdates "HTTP/1.1 200 OK"
+2026-01-14 18:05:25,109 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8522040364:AAF-axS2KIGIFNTOGtt-mxwfDRG2GBV9nWA/getUpdates "HTTP/1.1 200 OK"
+2026-01-14 18:05:25,381 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8522040364:AAF-axS2KIGIFNTOGtt-mxwfDRG2GBV9nWA/sendMessage "HTTP/1.1 200 OK"
+2026-01-14 18:05:35,196 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8522040364:AAF-axS2KIGIFNTOGtt-mxwfDRG2GBV9nWA/getUpdates "HTTP/1.1 200 OK"
+2026-01-14 18:05:36,389 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8522040364:AAF-axS2KIGIFNTOGtt-mxwfDRG2GBV9nWA/getUpdates "HTTP/1.1 200 OK"
+2026-01-14 18:05:36,660 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8522040364:AAF-axS2KIGIFNTOGtt-mxwfDRG2GBV9nWA/sendMessage "HTTP/1.1 200 OK"
+2026-01-14 18:05:43,794 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8522040364:AAF-axS2KIGIFNTOGtt-mxwfDRG2GBV9nWA/getUpdates "HTTP/1.1 200 OK"
+2026-01-14 18:05:43,795 - bot.botstocks - INFO - Начат анализ | user_id=6165450711 | ticker=MSFT | amount=6666.00
+2026-01-14 18:05:44,068 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8522040364:AAF-axS2KIGIFNTOGtt-mxwfDRG2GBV9nWA/sendMessage "HTTP/1.1 200 OK"
+2026-01-14 18:05:45,126 - services.data_service - INFO - Loaded 502 records for MSFT
+2026-01-14 18:05:45,126 - services.prediction_service - INFO - Training model Random Forest...
+2026-01-14 18:05:45,258 - services.prediction_service - INFO - Random Forest: RMSE = 13.90
+2026-01-14 18:05:45,259 - services.prediction_service - INFO - Training model ARIMA...
+2026-01-14 18:05:45,435 - services.prediction_service - INFO - ARIMA: RMSE = 17.51
+2026-01-14 18:05:45,436 - services.prediction_service - INFO - Training model LSTM...
+2026-01-14 18:05:50,394 - services.prediction_service - INFO - LSTM: RMSE = 18.25
+2026-01-14 18:05:50,394 - services.prediction_service - INFO - Best model: Random Forest (RMSE=13.90)
+2026-01-14 18:05:51,768 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8522040364:AAF-axS2KIGIFNTOGtt-mxwfDRG2GBV9nWA/sendPhoto "HTTP/1.1 200 OK"
+2026-01-14 18:05:51,883 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8522040364:AAF-axS2KIGIFNTOGtt-mxwfDRG2GBV9nWA/sendMessage "HTTP/1.1 200 OK"
+2026-01-14 18:05:51,884 - bot.botstocks - INFO - Анализ завершён | user_id=6165450711 | ticker=MSFT | profit=0.00
+2026-01-14 18:05:53,879 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8522040364:AAF-axS2KIGIFNTOGtt-mxwfDRG2GBV9nWA/getUpdates "HTTP/1.1 200 OK"
+2026-01-14 18:06:03,966 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8522040364:AAF-axS2KIGIFNTOGtt-mxwfDRG2GBV9nWA/getUpdates "HTTP/1.1 200 OK"
+2026-01-14 18:06:09,426 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8522040364:AAF-axS2KIGIFNTOGtt-mxwfDRG2GBV9nWA/getUpdates "HTTP/1.1 200 OK"
+2026-01-14 18:06:09,785 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8522040364:AAF-axS2KIGIFNTOGtt-mxwfDRG2GBV9nWA/sendMessage "HTTP/1.1 200 OK"
+2026-01-14 18:06:17,206 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8522040364:AAF-axS2KIGIFNTOGtt-mxwfDRG2GBV9nWA/getUpdates "HTTP/1.1 200 OK"
+2026-01-14 18:06:17,524 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8522040364:AAF-axS2KIGIFNTOGtt-mxwfDRG2GBV9nWA/sendMessage "HTTP/1.1 200 OK"
+2026-01-14 18:06:21,281 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8522040364:AAF-axS2KIGIFNTOGtt-mxwfDRG2GBV9nWA/getUpdates "HTTP/1.1 200 OK"
+2026-01-14 18:06:21,281 - bot.botstocks - INFO - Начат анализ | user_id=6165450711 | ticker=TSLA | amount=66666.00
+2026-01-14 18:06:21,434 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8522040364:AAF-axS2KIGIFNTOGtt-mxwfDRG2GBV9nWA/sendMessage "HTTP/1.1 200 OK"
+2026-01-14 18:06:21,904 - services.data_service - INFO - Loaded 502 records for TSLA
+2026-01-14 18:06:21,905 - services.prediction_service - INFO - Training model Random Forest...
+2026-01-14 18:06:22,038 - services.prediction_service - INFO - Random Forest: RMSE = 23.27
+2026-01-14 18:06:22,038 - services.prediction_service - INFO - Training model ARIMA...
+2026-01-14 18:06:22,306 - services.prediction_service - INFO - ARIMA: RMSE = 109.66
+2026-01-14 18:06:22,306 - services.prediction_service - INFO - Training model LSTM...
+2026-01-14 18:06:26,176 - services.prediction_service - INFO - LSTM: RMSE = 22.11
+2026-01-14 18:06:26,176 - services.prediction_service - INFO - Best model: LSTM (RMSE=22.11)
+2026-01-14 18:06:26,704 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8522040364:AAF-axS2KIGIFNTOGtt-mxwfDRG2GBV9nWA/sendPhoto "HTTP/1.1 200 OK"
+2026-01-14 18:06:26,836 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8522040364:AAF-axS2KIGIFNTOGtt-mxwfDRG2GBV9nWA/sendMessage "HTTP/1.1 200 OK"
+2026-01-14 18:06:26,837 - bot.botstocks - INFO - Анализ завершён | user_id=6165450711 | ticker=TSLA | profit=0.00
+2026-01-14 18:06:31,367 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8522040364:AAF-axS2KIGIFNTOGtt-mxwfDRG2GBV9nWA/getUpdates "HTTP/1.1 200 OK"
+2026-01-14 18:06:41,455 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8522040364:AAF-axS2KIGIFNTOGtt-mxwfDRG2GBV9nWA/getUpdates "HTTP/1.1 200 OK"
+2026-01-14 18:06:51,538 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8522040364:AAF-axS2KIGIFNTOGtt-mxwfDRG2GBV9nWA/getUpdates "HTTP/1.1 200 OK"
+2026-01-14 18:07:01,622 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8522040364:AAF-axS2KIGIFNTOGtt-mxwfDRG2GBV9nWA/getUpdates "HTTP/1.1 200 OK"
+2026-01-14 18:07:11,708 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8522040364:AAF-axS2KIGIFNTOGtt-mxwfDRG2GBV9nWA/getUpdates "HTTP/1.1 200 OK"
+2026-01-14 18:07:17,085 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8522040364:AAF-axS2KIGIFNTOGtt-mxwfDRG2GBV9nWA/getUpdates "HTTP/1.1 200 OK"
+2026-01-14 18:07:17,086 - telegram.ext.Application - INFO - Application is stopping. This might take a moment.
+2026-01-14 18:07:17,086 - telegram.ext.Application - INFO - Application.stop() complete
+2026-01-14 18:14:48,819 - __main__ - INFO - ============================================================
+2026-01-14 18:14:48,819 - __main__ - INFO - 🚀 Запуск Telegram-бота для прогнозирования акций
+2026-01-14 18:14:48,819 - __main__ - INFO - ============================================================
+2026-01-14 18:14:49,315 - __main__ - INFO - ✅ Бот успешно запущен
+2026-01-14 18:14:49,315 - __main__ - INFO - 📈 Горизонт прогноза: 30 дней
+2026-01-14 18:14:49,315 - __main__ - INFO - 📊 Исторические данные: 730 дней
+2026-01-14 18:14:49,315 - __main__ - INFO - ------------------------------------------------------------
+2026-01-14 18:14:49,579 - httpx - INFO - HTTP Request: POST https://api.telegram.org/botBOT_TOKEN/getMe "HTTP/1.1 404 Not Found"
+2026-01-14 18:14:49,580 - telegram.ext - ERROR - Network Retry Loop (Bootstrap Initialize Application): Invalid token. Aborting retry loop.
+Traceback (most recent call last):
+  File "H:\Leon\TGbot\venv\Lib\site-packages\telegram\_bot.py", line 854, in initialize
+    await self.get_me()
+  File "H:\Leon\TGbot\venv\Lib\site-packages\telegram\ext\_extbot.py", line 1999, in get_me
+    return await super().get_me(
+           ^^^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+    )
+    ^
+  File "H:\Leon\TGbot\venv\Lib\site-packages\telegram\_bot.py", line 985, in get_me
+    result = await self._post(
+             ^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "H:\Leon\TGbot\venv\Lib\site-packages\telegram\_bot.py", line 703, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "H:\Leon\TGbot\venv\Lib\site-packages\telegram\ext\_extbot.py", line 372, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "H:\Leon\TGbot\venv\Lib\site-packages\telegram\_bot.py", line 732, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "H:\Leon\TGbot\venv\Lib\site-packages\telegram\request\_baserequest.py", line 198, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "H:\Leon\TGbot\venv\Lib\site-packages\telegram\request\_baserequest.py", line 375, in _request_wrapper
+    raise exception
+telegram.error.InvalidToken: Not Found
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "H:\Leon\TGbot\venv\Lib\site-packages\telegram\ext\_utils\networkloop.py", line 134, in network_retry_loop
+    await do_action()
+  File "H:\Leon\TGbot\venv\Lib\site-packages\telegram\ext\_utils\networkloop.py", line 109, in do_action
+    await action_cb()
+  File "H:\Leon\TGbot\venv\Lib\site-packages\telegram\ext\_application.py", line 489, in initialize
+    await self.bot.initialize()
+  File "H:\Leon\TGbot\venv\Lib\site-packages\telegram\ext\_extbot.py", line 318, in initialize
+    await super().initialize()
+  File "H:\Leon\TGbot\venv\Lib\site-packages\telegram\_bot.py", line 856, in initialize
+    raise InvalidToken(f"The token `{self._token}` was rejected by the server.") from exc
+telegram.error.InvalidToken: The token `BOT_TOKEN` was rejected by the server.
